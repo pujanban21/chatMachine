@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "88849294648",
+    "firebase_url": "https://penguin-chat-engine.firebaseio.com",
+    "project_id": "penguin-chat-engine",
+    "storage_bucket": "penguin-chat-engine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88849294648:android:18e0f67aeccc63f6",
+        "android_client_info": {
+          "package_name": "jpinn.io.penguinchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88849294648-4o8tdk92rmcgg9unvsb8s5ft4kno44c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGRrJQm6OaOll9xzg1RjnsXTaISsGtSvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

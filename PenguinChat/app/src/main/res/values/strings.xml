@@ -12,4 +12,7 @@
     <string name="log_out">Log Out</string>
     <string name="title_activity_chat">ChatActivity</string>
     <string name="send">Send</string>
+    <string name="enter_a_message">enter_a_message</string>
+    <string name="current_online_users_by_username">current_online_users_by_username</string>
+    <string name="online_users">online_users</string>
 </resources>

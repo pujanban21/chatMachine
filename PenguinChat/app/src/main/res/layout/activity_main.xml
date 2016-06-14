@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/slight_blue"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context="jpinn.io.penguinchat.MainActivity">
-    <ListView
-        android:id="@+id/messages_list"
-        android:layout_weight="100"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="@null"/>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/new_message"
-            android:layout_weight="100"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
-        <Button
-            android:id="@+id/send_message"
-            android:text="@string/send"
-            android:background="@color/primary_blue"
-            android:textColor="@android:color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
-</LinearLayout>
+
+    <ImageView
+        android:id="@id/penguin_logo"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/penguin_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_below="@id/penguin_logo"
+        android:id="@id/current_number_of_users_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:padding="10sp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="LOG ON TO CHAT"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/current_number_of_users_text_view"
+        android:layout_gravity="center"/>
+</RelativeLayout>
